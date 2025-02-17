@@ -41,6 +41,7 @@
     <Compile Include="Platform\Input\InputKeyEventArgs.cs" />
     <Compile Include="Platform\Utilities\AssemblyHelper.cs" />
     <Compile Include="Platform\Threading.cs" />
+    <Compile Include="Platform\Storage\StorageDevice.Native.cs" />
   </ItemGroup>
 
   <ItemGroup>
