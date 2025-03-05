@@ -12,6 +12,12 @@
     <SupportedOSPlatformVersion>11.2</SupportedOSPlatformVersion>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Library.OpenAL" Version="1.23.1.10" />
   </ItemGroup>
@@ -72,6 +78,7 @@
     <Compile Include="..\ThirdParty\StbImageSharp\src\**\*.cs" LinkBase="Utilities\StbImageSharp" />
     <Compile Include="..\ThirdParty\StbImageWriteSharp\src\**\*.cs" LinkBase="Utilities\StbImageWriteSharp" />
     <Compile Include="Platform\Storage\StorageDevice.iOS.cs" />
+    <Compile Include="Platform\Storage\StorageContainer.iOS.cs" />
   </ItemGroup>
 
   <ItemGroup>

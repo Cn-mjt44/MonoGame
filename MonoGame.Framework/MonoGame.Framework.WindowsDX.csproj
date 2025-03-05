@@ -62,6 +62,7 @@
     <Compile Include="Platform\Windows\WinFormsGamePlatform.cs" />
     <Compile Include="Platform\Windows\WinFormsGameWindow.cs" />
     <Compile Include="Platform\Storage\StorageDevice.WindowsDX.cs" />
+    <Compile Include="Platform\Storage\StorageContainer.WindowsDX.cs" />
   </ItemGroup>
 
   <ItemGroup>
